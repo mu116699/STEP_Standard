@@ -1,0 +1,329 @@
+﻿序号,框类型,名称,中文名
+1,DEFINED TYPE,absorbed_dose_measure,吸收剂量
+2,DEFINED TYPE,acceleration_measure,加速度
+3,DEFINED TYPE,amount_of_substance_measure,物质的量
+4,DEFINED TYPE,angular_deviation,角度偏差
+5,DEFINED TYPE,area_measure,面积量
+6,DEFINED TYPE,atom_based_tuple,基于原子的元组
+7,DEFINED TYPE,box_height,盒高
+8,DEFINED TYPE,box_rotate_angle,盒旋转角
+9,DEFINED TYPE,box_slant_angle,盒斜角
+10,DEFINED TYPE,box_width,盒宽
+11,DEFINED TYPE,capacitance_measure,电容值
+12,DEFINED TYPE,celsius_temperature_measure,摄氏温度
+13,DEFINED TYPE,chordal_deviation,弦偏差
+14,DEFINED TYPE,common_datum_list,公共基准列表
+15,DEFINED TYPE,conductance_measure,电导值
+16,DEFINED TYPE,context_dependent_measure,上下文相关的量
+17,DEFINED TYPE,count_measure,计数量
+18,DEFINED TYPE,day_in_month_number,月中的日
+19,DEFINED TYPE,day_in_week_number,周中的日
+20,DEFINED TYPE,day_in_year_number,年中的日
+21,DEFINED TYPE,descriptive_measure,描述性度量
+22,DEFINED TYPE,dimension_count,尺寸个数
+23,DEFINED TYPE,dose_equivalent_measure,剂量当量
+24,DEFINED TYPE,dotted_express_identifier,带点的 EXPRESS 标识符
+25,DEFINED TYPE,electric_charge_measure,电荷量
+26,DEFINED TYPE,electric_current_measure,电流值
+27,DEFINED TYPE,electric_potential_measure,电位值
+28,DEFINED TYPE,energy_measure,能量值
+29,DEFINED TYPE,force_measure,力值
+30,DEFINED TYPE,frequency_measure,频率值
+31,DEFINED TYPE,hour_in_day,一天中的小时
+32,DEFINED TYPE,identifier,标识符
+33,DEFINED TYPE,illuminance_measure,照度值
+34,DEFINED TYPE,inductance_measure,电感值
+35,DEFINED TYPE,input_selector,输入选择器
+36,DEFINED TYPE,label,标签
+37,DEFINED TYPE,length_measure,长度量
+38,DEFINED TYPE,length_to_height_ratio,长高比
+39,DEFINED TYPE,list_of_reversible_topology_item,可逆拓扑项列表
+40,DEFINED TYPE,list_representation_item,列表表示项
+41,DEFINED TYPE,luminous_flux_measure,光通量值
+42,DEFINED TYPE,luminous_intensity_measure,发光强度值
+43,DEFINED TYPE,magnetic_flux_density_measure,磁通密度值
+44,DEFINED TYPE,magnetic_flux_measure,磁通量值
+45,DEFINED TYPE,mass_measure,质量值
+46,DEFINED TYPE,maths_binary,数学二进制
+47,DEFINED TYPE,maths_boolean,数学布尔
+48,DEFINED TYPE,maths_integer,数学整数
+49,DEFINED TYPE,maths_logical,数学逻辑
+50,DEFINED TYPE,maths_number,数学数
+51,DEFINED TYPE,maths_real,数学实数
+52,DEFINED TYPE,maths_string,数学字符串
+53,DEFINED TYPE,maths_tuple,数学元组
+54,DEFINED TYPE,maximum_edge_length,最大边长
+55,DEFINED TYPE,message,消息
+56,DEFINED TYPE,minute_in_hour,一小时中的分钟
+57,DEFINED TYPE,month_in_year_number,年中的月
+58,DEFINED TYPE,non_negative_length_measure,非负长度量
+59,DEFINED TYPE,nonnegative_integer,非负整数
+60,DEFINED TYPE,numeric_measure,数值量
+61,DEFINED TYPE,one_or_two,一或二
+62,DEFINED TYPE,parameter_value,参数值
+63,DEFINED TYPE,plane_angle_measure,平面角度量
+64,DEFINED TYPE,positive_integer,正整数
+65,DEFINED TYPE,positive_length_measure,正长度量
+66,DEFINED TYPE,positive_plane_angle_measure,正平面角度量
+67,DEFINED TYPE,positive_ratio_measure,正比值
+68,DEFINED TYPE,power_measure,功率值
+69,DEFINED TYPE,presentable_text,可呈现文本
+70,DEFINED TYPE,pressure_measure,压力值
+71,DEFINED TYPE,product_definition_or_reference_or_occurrence,产品定义或引用或实例
+72,DEFINED TYPE,radioactivity_measure,放射性活度
+73,DEFINED TYPE,ratio_measure,比值
+74,DEFINED TYPE,resistance_measure,电阻值
+75,DEFINED TYPE,second_in_minute,一分钟中的秒
+76,DEFINED TYPE,set_of_reversible_topology_item,可逆拓扑项集合
+77,DEFINED TYPE,set_representation_item,集合表示项
+78,DEFINED TYPE,solid_angle_measure,立体角量
+79,DEFINED TYPE,spline_knot_values,样条节点值
+80,DEFINED TYPE,tessellated_facet_long_short_edge_ratio,镶嵌面片长短边比
+81,DEFINED TYPE,text,文本
+82,DEFINED TYPE,text_alignment,文本对齐
+83,DEFINED TYPE,text_delineation,文本轮廓线
+84,DEFINED TYPE,thermodynamic_temperature_measure,热力学温度
+85,DEFINED TYPE,time_measure,时间值
+86,DEFINED TYPE,u_direction_count,U 方向个数
+87,DEFINED TYPE,unsigned_8_bit_integer,无符号 8 位整数
+88,DEFINED TYPE,v_direction_count,V 方向个数
+89,DEFINED TYPE,value_format_type,值格式类型
+90,DEFINED TYPE,velocity_measure,速度值
+91,DEFINED TYPE,volume_measure,体积量
+92,DEFINED TYPE,week_in_year_number,年中的周
+93,DEFINED TYPE,year_number,年份
+94,DEFINED TYPE,ypr_rotation,YPR 旋转
+95,DEFINED TYPE,zero_or_one,零或一
+96,SELECT/抽象超类型,action_items,动作项
+97,SELECT/抽象超类型,action_method_items,动作方法项
+98,SELECT/抽象超类型,action_request_item,动作请求项
+99,SELECT/抽象超类型,actuated_direction,受驱动方向
+100,SELECT/抽象超类型,ahead_or_behind,前或后
+101,SELECT/抽象超类型,angle_relator,角关系词
+102,SELECT/抽象超类型,annotation_placeholder_occurrence_role,标注占位符实例角色
+103,SELECT/抽象超类型,annotation_plane_element,标注平面元素
+104,SELECT/抽象超类型,annotation_representation_select,标注表示选择类型
+105,SELECT/抽象超类型,annotation_symbol_occurrence_item,标注符号实例项
+106,SELECT/抽象超类型,annotation_text_occurrence_item,标注文本实例项
+107,SELECT/抽象超类型,approval_item,批准项
+108,SELECT/抽象超类型,area_or_view,面积或视图
+109,SELECT/抽象超类型,area_unit_type,面积单位类型
+110,SELECT/抽象超类型,atom_based_value,原子基于值
+111,SELECT/抽象超类型,attribute_classification_item,属性分类项
+112,SELECT/抽象超类型,attribute_language_item,属性语言项
+113,SELECT/抽象超类型,attribute_type,属性类型
+114,SELECT/抽象超类型,axis2_placement,轴2放置
+115,SELECT/抽象超类型,b_spline_curve_form,B样条曲线形状
+116,SELECT/抽象超类型,b_spline_surface_form,B样条曲面形状
+117,SELECT/抽象超类型,boolean_operand,布尔操作数
+118,SELECT/抽象超类型,boolean_operator,布尔运算符
+119,SELECT/抽象超类型,box_characteristic_select,盒特征选择类型
+120,SELECT/抽象超类型,camera_model_d3_multi_clipping_intersection_select,相机模型D3多裁剪相交选择类型
+121,SELECT/抽象超类型,camera_model_d3_multi_clipping_union_select,相机模型D3多裁剪并集选择类型
+122,SELECT/抽象超类型,category_usage_item,类别用法项
+123,SELECT/抽象超类型,central_or_parallel,中心或平行
+124,SELECT/抽象超类型,certification_item,认证项
+125,SELECT/抽象超类型,chained_representation_link,链式表示链接
+126,SELECT/抽象超类型,character_spacing_select,字符间距选择类型
+127,SELECT/抽象超类型,character_style_select,字符样式选择类型
+128,SELECT/抽象超类型,characterized_action_definition,特征化动作定义
+129,SELECT/抽象超类型,characterized_definition,特征化定义
+130,SELECT/抽象超类型,characterized_item,特征化项
+131,SELECT/抽象超类型,characterized_material_property,特征化材料属性
+132,SELECT/抽象超类型,characterized_product_definition,特征化产品定义
+133,SELECT/抽象超类型,characterized_property_representation,特征化属性表示
+134,SELECT/抽象超类型,characterized_resource_definition,特征化资源定义
+135,SELECT/抽象超类型,class_usage_effectivity_context_item,类用法有效性上下文项
+136,SELECT/抽象超类型,classification_item,分类项
+137,SELECT/抽象超类型,classified_item,已分类项
+138,SELECT/抽象超类型,colour_type_enum,颜色类型枚举
+139,SELECT/抽象超类型,compound_item_definition,复合项定义
+140,SELECT/抽象超类型,configuration_design_item,配置设计项
+141,SELECT/抽象超类型,configured_effectivity_context_item,已配置有效性上下文项
+142,SELECT/抽象超类型,configured_effectivity_item,已配置有效性项
+143,SELECT/抽象超类型,constructive_geometry_representation_or_shape_representation,构造几何表示或形状表示
+144,SELECT/抽象超类型,contract_item,合同项
+145,SELECT/抽象超类型,csg_primitive,构造实体几何基本体
+146,SELECT/抽象超类型,csg_select,构造实体几何选择类型
+147,SELECT/抽象超类型,curve_font_or_scaled_curve_font_select,曲线字体或缩放曲线字体选择类型
+148,SELECT/抽象超类型,curve_on_surface,曲面上的曲线
+149,SELECT/抽象超类型,curve_or_annotation_curve_occurrence,曲线或标注曲线实例
+150,SELECT/抽象超类型,curve_or_curve_set,曲线或曲线集合
+151,SELECT/抽象超类型,curve_or_render,曲线或渲染
+152,SELECT/抽象超类型,curve_style_font_select,曲线样式字体选择类型
+153,SELECT/抽象超类型,date_and_time_item,日期与时间项
+154,SELECT/抽象超类型,date_item,日期项
+155,SELECT/抽象超类型,date_time_or_event_occurrence,日期时间或事件实例
+156,SELECT/抽象超类型,date_time_select,日期时间选择类型
+157,SELECT/抽象超类型,datum_or_common_datum,基准或公共基准
+158,SELECT/抽象超类型,datum_reference_modifier,基准引用修饰符
+159,SELECT/抽象超类型,datum_reference_modifier_type,基准引用修饰符类型
+160,SELECT/抽象超类型,datum_system_or_reference,基准系统或引用
+161,SELECT/抽象超类型,defined_glyph_select,定义字形选择类型
+162,SELECT/抽象超类型,defined_symbol_select,定义符号选择类型
+163,SELECT/抽象超类型,derived_property_select,派生属性选择类型
+164,SELECT/抽象超类型,des_apll_point_select,DESAPLL点选择类型
+165,SELECT/抽象超类型,des_apll_point_symbol,DESAPLL点符号
+166,SELECT/抽象超类型,description_attribute_select,描述属性选择类型
+167,SELECT/抽象超类型,dimension_extent_usage,尺寸范围用法
+168,SELECT/抽象超类型,dimensional_characteristic,尺寸特征
+169,SELECT/抽象超类型,directed_tolerance_zone_type,有向公差区域类型
+170,SELECT/抽象超类型,direction_count_select,方向个数选择类型
+171,SELECT/抽象超类型,document_identifier_assigned_item,文档标识符赋值项
+172,SELECT/抽象超类型,document_reference_item,文档引用项
+173,SELECT/抽象超类型,draughting_callout_element,制图注记元素
+174,SELECT/抽象超类型,draughting_model_item_association_select,制图模型项关联选择类型
+175,SELECT/抽象超类型,draughting_model_item_select,制图模型项选择类型
+176,SELECT/抽象超类型,draughting_subfigure_representation_item,制图子图表示项
+177,SELECT/抽象超类型,draughting_symbol_representation_item,制图符号表示项
+178,SELECT/抽象超类型,edge_or_curve,边或曲线
+179,SELECT/抽象超类型,effectivity_item,有效性项
+180,SELECT/抽象超类型,elementary_function_enumerators,基本函数枚举项
+181,SELECT/抽象超类型,elementary_space_enumerators,基本空间枚举项
+182,SELECT/抽象超类型,event_occurrence_item,事件实例项
+183,SELECT/抽象超类型,expression_element,表达式元素
+184,SELECT/抽象超类型,extension_options,扩展选项
+185,SELECT/抽象超类型,extent_enumeration,范围枚举
+186,SELECT/抽象超类型,external_identification_item,外部标识项
+187,SELECT/抽象超类型,face_or_surface,面或曲面
+188,SELECT/抽象超类型,fill_area_style_tile_shape_select,填充面积样式瓦片形状选择类型
+189,SELECT/抽象超类型,fill_style_select,填充样式选择类型
+190,SELECT/抽象超类型,font_select,字体选择类型
+191,SELECT/抽象超类型,founded_item_select,基于项选择类型
+192,SELECT/抽象超类型,generic_attribute_list_select,通用属性列表选择类型
+193,SELECT/抽象超类型,generic_attribute_select,通用属性选择类型
+194,SELECT/抽象超类型,geometric_item_specific_usage_select,几何项特定用法选择类型
+195,SELECT/抽象超类型,geometric_model_item,几何模型项
+196,SELECT/抽象超类型,geometric_set_select,几何集合选择类型
+197,SELECT/抽象超类型,geometric_tolerance_auxiliary_classification_enum,几何公差辅助分类枚举
+198,SELECT/抽象超类型,geometric_tolerance_modifier,几何公差修饰符
+199,SELECT/抽象超类型,geometric_tolerance_target,几何公差目标
+200,SELECT/抽象超类型,gps_filtration_specification_target,GPS过滤规范目标
+201,SELECT/抽象超类型,gps_filtration_type,GPS过滤类型
+202,SELECT/抽象超类型,groupable_item,可分组项
+203,SELECT/抽象超类型,id_attribute_select,标识属性选择类型
+204,SELECT/抽象超类型,identification_item,标识项
+205,SELECT/抽象超类型,idrm_marked_item,IDRM带标记项
+206,SELECT/抽象超类型,instance_usage_context_select,实例用法上下文选择类型
+207,SELECT/抽象超类型,interpolation_type,插值类型
+208,SELECT/抽象超类型,invisibility_context,不可见上下文
+209,SELECT/抽象超类型,invisible_item,不可见项
+210,SELECT/抽象超类型,item_identified_representation_usage_definition,项被标识表示用法定义
+211,SELECT/抽象超类型,item_identified_representation_usage_select,项被标识表示用法选择类型
+212,SELECT/抽象超类型,kinematic_analysis_definition,运动学分析定义
+213,SELECT/抽象超类型,kinematic_link_representation_items,运动学链接表示项
+214,SELECT/抽象超类型,kinematic_result,运动学结果
+215,SELECT/抽象超类型,kinematic_topology_representation_select,运动学拓扑表示选择类型
+216,SELECT/抽象超类型,knot_type,节点类型
+217,SELECT/抽象超类型,layered_item,分层项
+218,SELECT/抽象超类型,length_or_plane_angle_measure_with_unit_select,带单位选择类型的长度或平面角量
+219,SELECT/抽象超类型,limit_condition,极限条件
+220,SELECT/抽象超类型,linearly_independent_enum,线性独立枚举
+221,SELECT/抽象超类型,link_or_shape_representation,链接或形状表示
+222,SELECT/抽象超类型,locally_refined_spline_type_enum,局部细化样条类型枚举
+223,SELECT/抽象超类型,lower_upper,下上
+224,SELECT/抽象超类型,marker_select,标记选择类型
+225,SELECT/抽象超类型,marker_type,标记类型
+226,SELECT/抽象超类型,maths_atom,数学原子
+227,SELECT/抽象超类型,maths_enum_atom,数学枚举原子
+228,SELECT/抽象超类型,maths_expression,数学表达式
+229,SELECT/抽象超类型,maths_function_select,数学函数选择类型
+230,SELECT/抽象超类型,maths_simple_atom,数学简单原子
+231,SELECT/抽象超类型,maths_space_or_function,数学空间或函数
+232,SELECT/抽象超类型,maths_value,数学值
+233,SELECT/抽象超类型,measure_value,量值
+234,SELECT/抽象超类型,mechanical_design_and_draughting_relationship_select,机械设计与制图关系选择类型
+235,SELECT/抽象超类型,mechanical_design_geometric_presentation_area_items,机械设计几何表示面积项
+236,SELECT/抽象超类型,mechanical_design_geometric_presentation_representation_items,机械设计几何表示表示项
+237,SELECT/抽象超类型,mechanical_design_shaded_presentation_area_items,机械设计着色表示面积项
+238,SELECT/抽象超类型,mechanical_design_shaded_presentation_representation_items,机械设计着色表示表示项
+239,SELECT/抽象超类型,multi_language_attribute_item,多语言属性项
+240,SELECT/抽象超类型,name_attribute_select,名称属性选择类型
+241,SELECT/抽象超类型,name_item,名称项
+242,SELECT/抽象超类型,null_style,空样式
+243,SELECT/抽象超类型,open_closed,开放闭合
+244,SELECT/抽象超类型,ordering_type,排序类型
+245,SELECT/抽象超类型,organization_item,组织项
+246,SELECT/抽象超类型,oriented_tolerance_zone_type,有向公差区域类型
+247,SELECT/抽象超类型,path_or_composite_curve,路径或组合曲线
+248,SELECT/抽象超类型,pcurve_or_surface,参数曲线或曲面
+249,SELECT/抽象超类型,person_and_organization_item,人员与组织项
+250,SELECT/抽象超类型,person_organization_select,人员组织选择类型
+251,SELECT/抽象超类型,plane_or_planar_box,平面或平面盒
+252,SELECT/抽象超类型,point_cloud_set_or_superset,点云集合或超集
+253,SELECT/抽象超类型,preferred_surface_curve_representation,首选曲面曲线表示
+254,SELECT/抽象超类型,presentation_representation_select,presentation 表示选择类型
+255,SELECT/抽象超类型,presentation_size_assignment_select,表示尺寸赋值选择类型
+256,SELECT/抽象超类型,presentation_style_select,表示样式选择类型
+257,SELECT/抽象超类型,presented_item_select,被表示项选择类型
+258,SELECT/抽象超类型,product_definition_occurrence_or_reference,产品定义实例或引用
+259,SELECT/抽象超类型,product_definition_or_assembly_relationship,产品定义或装配关系
+260,SELECT/抽象超类型,product_definition_or_breakdown_element_usage,产品定义或分解元素用法
+261,SELECT/抽象超类型,product_definition_or_product_definition_relationship,产品定义或产品定义关系
+262,SELECT/抽象超类型,product_definition_or_reference,产品定义或引用
+263,SELECT/抽象超类型,product_or_formation_or_definition,产品或形成或定义
+264,SELECT/抽象超类型,product_space,产品空间
+265,SELECT/抽象超类型,project_item,项目项
+266,SELECT/抽象超类型,promissory_usage_in_product_model_assigned_item,产品模型赋值项中的承诺性用法
+267,SELECT/抽象超类型,property_or_shape_select,属性或形状选择类型
+268,SELECT/抽象超类型,real_interval,实数区间
+269,SELECT/抽象超类型,rendering_properties_select,渲染属性选择类型
+270,SELECT/抽象超类型,repackage_options,重新包装选项
+271,SELECT/抽象超类型,representation_or_representation_reference,表示或表示引用
+272,SELECT/抽象超类型,representation_proxy_select,表示代理选择类型
+273,SELECT/抽象超类型,represented_definition,被表示定义
+274,SELECT/抽象超类型,requirement_assigned_item,要求赋值项
+275,SELECT/抽象超类型,requirement_satisfaction_item,要求满足项
+276,SELECT/抽象超类型,requirement_source_item,要求源项
+277,SELECT/抽象超类型,reversible_topology,可逆拓扑
+278,SELECT/抽象超类型,reversible_topology_item,可逆拓扑项
+279,SELECT/抽象超类型,rigid_placement,刚性放置
+280,SELECT/抽象超类型,role_select,角色选择类型
+281,SELECT/抽象超类型,security_classification_item,安全分类项
+282,SELECT/抽象超类型,shading_curve_method,着色曲线方法
+283,SELECT/抽象超类型,shading_surface_method,着色曲面方法
+284,SELECT/抽象超类型,shape_aspect_or_characterized_object,形状要素或特征化对象
+285,SELECT/抽象超类型,shape_definition,形状定义
+286,SELECT/抽象超类型,shape_dimension_representation_item,尺寸几何表示项
+287,SELECT/抽象超类型,shape_model,形状模型
+288,SELECT/抽象超类型,shape_representation_with_parameters_items,带参数项的形状表示
+289,SELECT/抽象超类型,shell,壳
+290,SELECT/抽象超类型,si_prefix,SI 前缀
+291,SELECT/抽象超类型,si_unit_name,SI单位名称
+292,SELECT/抽象超类型,simple_datum_reference_modifier,简单基准引用修饰符
+293,SELECT/抽象超类型,size_select,尺寸选择类型
+294,SELECT/抽象超类型,source,源
+295,SELECT/抽象超类型,source_item,源项
+296,SELECT/抽象超类型,space_constraint_type,空间约束类型
+297,SELECT/抽象超类型,spatial_rotation,空间旋转
+298,SELECT/抽象超类型,spherical_pair_select,球形副选择类型
+299,SELECT/抽象超类型,string_representation_item_select,字符串表示项选择类型
+300,SELECT/抽象超类型,style_context_select,样式上下文选择类型
+301,SELECT/抽象超类型,styled_item_target,带样式项目标
+302,SELECT/抽象超类型,supported_item,受支持项
+303,SELECT/抽象超类型,surface_boundary,曲面边界
+304,SELECT/抽象超类型,surface_side,曲面侧
+305,SELECT/抽象超类型,surface_side_style_select,曲面侧样式选择类型
+306,SELECT/抽象超类型,surface_style_element_select,曲面样式元素选择类型
+307,SELECT/抽象超类型,symbol_style_select,符号样式选择类型
+308,SELECT/抽象超类型,symmetry_type,对称度类型
+309,SELECT/抽象超类型,terminator,终止符
+310,SELECT/抽象超类型,tessellated_edge_or_vertex,镶嵌边或顶点
+311,SELECT/抽象超类型,tessellated_surface_item,镶嵌曲面项
+312,SELECT/抽象超类型,tessellation_accuracy_parameter_item,镶嵌精度参数项
+313,SELECT/抽象超类型,text_or_character,文本或字符
+314,SELECT/抽象超类型,text_path,文本路径
+315,SELECT/抽象超类型,text_string_representation_item,文本字符串表示项
+316,SELECT/抽象超类型,time_interval_item,时间区间项
+317,SELECT/抽象超类型,tolerance_method_definition,公差方法定义
+318,SELECT/抽象超类型,tolerance_value_or_limits_and_fits,公差值或极限与配合
+319,SELECT/抽象超类型,tolerance_zone_target,公差区域目标
+320,SELECT/抽象超类型,transformation,变换
+321,SELECT/抽象超类型,transition_code,过渡代码
+322,SELECT/抽象超类型,trimming_preference,裁剪优先
+323,SELECT/抽象超类型,trimming_select,裁剪选择类型
+324,SELECT/抽象超类型,tuple_space,元组空间
+325,SELECT/抽象超类型,unit,单位
+326,SELECT/抽象超类型,value_qualifier,值限定符
+327,SELECT/抽象超类型,vector_or_direction,向量或方向
+328,SELECT/抽象超类型,ypr_enumeration,YPR枚举

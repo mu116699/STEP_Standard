@@ -1,0 +1,19 @@
+# STEP-AIM 脚本依赖
+#
+# scripts/ 目录下的所有脚本仅使用 Python 标准库，无需安装任何第三方包：
+#   re, json, os, sys, csv, collections, urllib.request, urllib.parse
+#
+# 因此本文件不包含任何第三方依赖。
+# 只需 Python 3.8+ 即可运行，例如：
+#   python scripts/extract_arm.py
+#   python scripts/gen_arm_doc.py
+#   python scripts/extract_aim.py
+#   python scripts/gen_aim_doc.py
+#   python scripts/check_geom_doc.py
+#
+# 若后续引入第三方库，请在此处按如下格式添加：
+#   package-name==x.y.z
+#
+# 例外：scripts/add_pdf_bookmarks.py 为 PDF 添加目录书签时需要第三方库 pypdf
+# （仅此一个脚本需要，其余脚本仍只用标准库）：
+#   pip install pypdf
